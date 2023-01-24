@@ -14,7 +14,6 @@
 </div>
 
 ## Installation
-
 1. Install all required packages:
 ```
 # Ubuntu
@@ -30,4 +29,15 @@ git clone https://github.com/ByCh4n-Group/Linux-Video-Viewer.git
 ```
 cd Linux-Video-Viewer
 bash Linux-Video-Viewer.sh
+```
+### AUR
+You can also get the PKGBUILD from AUR:
+```
+git clone https://aur.archlinux.org/linux-video-viewer.git
+cd linux-video-viewer
+makepkg -si
+```
+Or if you are using an AUR helper like `yay`:
+```
+yay -S linux-video-viewer
 ```
