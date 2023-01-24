@@ -30,7 +30,7 @@ git clone https://github.com/ByCh4n-Group/Linux-Video-Viewer.git
 cd Linux-Video-Viewer
 bash Linux-Video-Viewer.sh
 ```
-## AUR
+### AUR
 You can also get the PKGBUILD from AUR:
 ```
 git clone https://aur.archlinux.org/linux-video-viewer.git
