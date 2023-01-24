@@ -29,5 +29,5 @@ git clone https://github.com/ByCh4n-Group/Linux-Video-Viewer.git
 3. Run the `Linux Video Viewer.sh` script to start:
 ```
 cd Linux-Video-Viewer
-bash Linux Video Viewer.sh
+bash Linux-Video-Viewer.sh
 ```
