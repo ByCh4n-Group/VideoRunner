@@ -15,7 +15,7 @@
 
 ## Installation
 
-1. Install all required [packages](#packages):
+1. Install all required packages:
 ```
 # Ubuntu
 sudo apt install yad mpv
@@ -26,7 +26,7 @@ sudo pacman -S yad mpv
 ```
 git clone https://github.com/ByCh4n-Group/Linux-Video-Viewer.git
 ```
-3. Run the `Linux Video Viewer.sh` script to start. (forks to background):
+3. Run the `Linux Video Viewer.sh` script to start:
 ```
 cd Linux-Video-Viewer
 bash Linux Video Viewer.sh
