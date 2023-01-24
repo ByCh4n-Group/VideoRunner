@@ -60,7 +60,7 @@ if [ ! -d ~/.config/mhykol ]; then
     mkdir ~/.config/mhykol
 fi
 if [ ! -f ~/.config/mhykol/mhykol.conf ]; then
-    MPVARGS=" --border=no --vo=opengl --hwdec=vaapi"
+    MPVARGS=" --border=no --vo=gpu --hwdec=vaapi"
     savesettingsfunc
 fi
 mpvfile "$STARTFILE"
