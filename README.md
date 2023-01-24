@@ -12,3 +12,22 @@
 <div align="center" style="display:inline">
 <img alt="Screenshot of Thumbnail" src="https://user-images.githubusercontent.com/68022135/214379534-be523e77-1eef-4efa-9795-8615949ee613.png" width="800" />
 </div>
+
+## Installation
+
+1. Install all required [packages](#packages):
+```
+# Ubuntu
+sudo apt install yad mpv
+# Arch
+sudo pacman -S yad mpv
+```
+2. Clone the repo:
+```
+git clone https://github.com/ByCh4n-Group/Linux-Video-Viewer.git
+```
+3. Run the `Linux Video Viewer.sh` script to start. (forks to background):
+```
+cd Linux-Video-Viewer
+bash Linux Video Viewer.sh
+```
