@@ -12,6 +12,15 @@ bychan () {
     mpvfile "$STARTFILE"
 }
 
+if ! type mpv &>/dev/null;then
+    DLG=$(yad --form --window-icon="mhykol.png" \
+        --borders=10 \
+        --text="MPV not found\n\n  Install it first and run the script again" --button="OK" \
+        --title="Linux Video Viewer" --center --undecorated \
+    )
+    exit
+fi
+
 mpvfile () {
     . ~/.config/mhykol/mhykol.conf
     MPVFILE="$(yad --form --window-icon="mhykol.png" --title="Linux Video Viewer" --width=600 --height=400 --button=Close:1 --button=Bychan:2 --button=Ok:0 --separator="," --item-separator=" " --text="Linux Video Viewer\n\nInput the arguments you would like to run mpv with.\nThen select the files you would like to play or input a url to play.\n\n\n" --field="Mpv Arguments" "$MPVARGS" --field="File(s)":MFL "" --field="URL(s)" "$STARTFILE")"
